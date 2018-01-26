@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Varun's Quiz</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+	<script src="main.js"></script>
+</head>
+<body>
+	<h1>This is the best quiz on the web</h1>
+
+	<form id="quiz" name="quiz">
+		
+		<label>What's the farthest planet in our Solar System to Sun?</label><br>
+		<input type="text" name="question1" id="textbox"><br><br>
+		
+		<p>What's Australia's Capital?</p><br>
+		<input type="radio" name="question2" value="Sydney"><label>Sydney</label><br>
+		<input type="radio" name="question2" value="Perth"><label>Perth</label><br>
+		<input type="radio" name="question2" value="Brisbane"><label>Brisbane</label><br>
+		<input type="radio" name="question2" value="None of the above"><label>None of the above</label><br><br>
+
+		<p>What's the capital of Nagaland, India?</p><br>
+		<input type="radio" name="question3" value="Mizoram"><label>Mizoram</label><br>
+		<input type="radio" name="question3" value="Aizwal"><label>Aizwal</label><br>
+		<input type="radio" name="question3" value="Shillong"><label>Shillong</label><br>
+		<input type="radio" name="question3" value="Kohima"><label>Kohima</label><br><br>	
+		
+		<input type="button" id="button" value="End Test" onclick="check();">	
+	</form>
+
+	<div id="hiddenText">
+		<p id="message"></p>
+		<p id="ending"></p>
+		<img id="picture">
+	</div>
+</body>
+</html>
